@@ -45,7 +45,7 @@ debugObject.reset = () =>{
         scene.remove(object.mesh)
 
         //Empty object array
-        objectToUpdate.splice(0, objectToUpdate.length)
+        //objectToUpdate.length = 0
      }
 }
 gui.add(debugObject, 'reset')
